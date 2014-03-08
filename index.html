@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>The Talk Title</title>
+    <title>Effective Shell</title>
     <meta name="author" content="Pat Brisbin">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -14,13 +14,71 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section
-          data-markdown="slides/one.md"
-          data-separator="^\n\n\n"
-          data-vertical="^\n\n"
-          data-notes="^Note:"
-          data-charset="utf8">
+        <section data-markdown="slides/title.md"></section>
+        <section data-markdown="slides/about_1.md"></section>
+        <section data-markdown="slides/about_2.md"></section>
+        <section>
+          <section><h1>Definitions</h1></section>
+          <section data-markdown="slides/unix.md"></section>
+          <section data-markdown="slides/command.md"></section>
+          <section data-markdown="slides/shell.md"></section>
         </section>
+        <section>
+          <section><h1>Choosing a Shell</h1></section>
+          <section data-markdown="slides/posix_sh.md"></section>
+          <section data-markdown="slides/sh.md"></section>
+          <section data-markdown="slides/bash.md"></section>
+          <section data-markdown="slides/dash.md"></section>
+          <section data-markdown="slides/zsh.md"></section>
+          <section data-markdown="slides/install_zsh.md"></section>
+        </section>
+        <section>
+          <section><h1>Shell Features</h1></section>
+          <section data-markdown="slides/aliases.md"></section>
+          <section data-markdown="slides/zsh_aliases.md"></section>
+          <section data-markdown="slides/globbing.md"></section>
+          <section data-markdown="slides/zsh_globbing.md"></section>
+          <section data-markdown="slides/redirection.md"></section>
+          <section data-markdown="slides/expansions.md"></section>
+          <section data-markdown="slides/zsh_completion.md"></section>
+        </section>
+        <section>
+          <section><h1>Other Tools</h1></section>
+          <section data-markdown="slides/cat.md"></section>
+          <section data-markdown="slides/grep.md"></section>
+          <section data-markdown="slides/cut.md"></section>
+          <section data-markdown="slides/sed.md"></section>
+        </section>
+        <section>
+          <section><h1>Building a Command Line</h1></section>
+          <section data-markdown="slides/pipeline.md"></section>
+          <section data-markdown="slides/control_flow.md"></section>
+          <section data-markdown="slides/multi_line.md"></section>
+          <section data-markdown="slides/multi_line_implicit.md"></section>
+          <section data-markdown="slides/functions.md"></section>
+        </section>
+        <section>
+          <section>
+            <h1>Example 1</h1>
+            <h2>Cleaning up Files</h2>
+          </section>
+          <section data-markdown="slides/files.md"></section>
+          <section data-markdown="slides/files_loop.md"></section>
+          <section data-markdown="slides/files_show_ext.md"></section>
+          <section data-markdown="slides/files_show_rename.md"></section>
+          <section data-markdown="slides/files_fix.md"></section>
+        </section>
+        <section>
+          <section>
+            <h1>Example 2</h1>
+            <h2>Building a Talk</h2>
+          </section>
+          <section data-markdown="slides/talk_manual.md"></section>
+          <section data-markdown="slides/talk_curl.md"></section>
+          <section data-markdown="slides/talk_automate.md"></section>
+          <section data-markdown="slides/talk_automate_use.md"></section>
+        </section>
+        <section><h1>Thanks</h1></section>
       </div>
     </div>
     <script src="lib/js/head.min.js"></script>
